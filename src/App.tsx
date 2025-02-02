@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<PropertiesPage />} />
         <Route path="/properties" element={<PropertiesPage />} />
         <Route path="/property/:id" element={<PropertyPage />} />
       </Routes>
